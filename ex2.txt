@@ -1,0 +1,7 @@
+﻿
+    1  mkdir ~/week1
+   2  cd ~/week1
+   3  pwd
+   4  whoami
+   5  ls
+   6  history > ex2.txt
