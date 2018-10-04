@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+  10680	   2432	   2640	  15752	   3d88	ex1.exe
