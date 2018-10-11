@@ -1,0 +1,3 @@
+Physical addresses - real addresses on random access memory.
+Virtual address doesn't really exist. It points to a particular place in physical memory.
+The physical-virtual mapping is created during the compilation by the CPU.
