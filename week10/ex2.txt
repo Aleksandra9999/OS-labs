@@ -1,0 +1,6 @@
+find -inum 20266198323170781 > ex2.txt
+output:
+./_ex2.txt
+
+find -inum 20266198323170781 > ex2.txt -exec rm {} \;
+output:
