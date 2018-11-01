@@ -1,0 +1,5 @@
+In the first case:
+The buffer has string "Hello", and after fork() the new process has actually the same buffer. So, the word "Hello" is printed twice with "\n".
+
+In the second case:
+Firstly "Hello\n" is printed. In moment when the fork() invokes, the buffer is empty, because "\n" exist in the first printf. So, the child process will have the same empty buffer and each process then prints "\n".
