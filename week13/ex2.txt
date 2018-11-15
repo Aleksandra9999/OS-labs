@@ -1,0 +1,10 @@
+Prevention
+Programs using this method will try to avoid ever entering any one of 4 conditions for deadlock (mutual exclusion, hold and wait, no preemption, circular wait). This approache is at least possible.
+
+Avoidance
+This strategy is impossible to implement practically because we should know information in advance.
+
+Recovery
+(Recovery through preemption) It is highly dependent on the nature of the resource.
+(Recovery through rollBack) It is time and space consuming.
+(Recovery through killing processes) This method is the simplest way of deadlock recovery but it can cause problems with processes being rerunable.
